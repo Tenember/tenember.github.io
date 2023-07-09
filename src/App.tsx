@@ -1,25 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import { Drawer } from "./features/Drawer/Drawer";
+import { Tabs } from "./features/Drawer/Tabs/Tabs";
+import { StarsBackground } from "./features/Backgrounds/Stars";
+import { DrawerCTA } from "./features/DrawerCTA/DrawerCTA";
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header className="App-header ">
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </header>
-    </div>
+      <body className="flex h-screen w-screen">
+        {/* Black background */}
+        <div className="overflow-y-auto scrollbar-none h-full w-full bg-black content-center align-middle">
+          <StarsBackground>
+            {/* Middle square CTA */}
+            <DrawerCTA setIsOpen={setIsOpen} />
+            {/* Hidden Drawer on the right */}
+            <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
+              <Tabs />
+            </Drawer>
+          </StarsBackground>
+        </div>
+      </body>
+    </>
   );
 }
 

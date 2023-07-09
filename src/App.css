@@ -13,10 +13,11 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+body {
   display: flex;
+  width: auto;
+  height: fit-content;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -35,4 +36,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg-space {
+  background-image: url(/public/dust-top-right.bcc932ca.png), url(/public/dust-btm-left.28ba3476.png), linear-gradient(180deg, #000113 0%, #0E0D2E 100%);
+  background-size: auto, auto, 100%;
+  background-repeat: no-repeat;
+  background-position: right top, bottom left;
 }
