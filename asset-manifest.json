@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/onlydust-case/static/css/main.d0501a09.css",
+    "main.js": "/onlydust-case/static/js/main.da5b5637.js",
+    "static/js/787.e2148d16.chunk.js": "/onlydust-case/static/js/787.e2148d16.chunk.js",
+    "static/media/dust-btm-left.28ba3476.png": "/onlydust-case/static/media/dust-btm-left.28ba3476.483a303645c703daeabb.png",
+    "static/media/dust-top-right.bcc932ca.png": "/onlydust-case/static/media/dust-top-right.bcc932ca.6591cbc8bc1cda2ffd41.png",
+    "static/media/Eye.svg": "/onlydust-case/static/media/Eye.7cd6a906522335e8d72904d2bb179e44.svg",
+    "static/media/Warning.svg": "/onlydust-case/static/media/Warning.980a58525e1dc8e6a41cd79e328e2916.svg",
+    "index.html": "/onlydust-case/index.html",
+    "static/media/close-cross-exit.svg": "/onlydust-case/static/media/close-cross-exit.2259c330ffed7d4086725e9683966e61.svg",
+    "static/media/Check.svg": "/onlydust-case/static/media/Check.7af34f49267103a3b901e5138467107f.svg",
+    "main.d0501a09.css.map": "/onlydust-case/static/css/main.d0501a09.css.map",
+    "main.da5b5637.js.map": "/onlydust-case/static/js/main.da5b5637.js.map",
+    "787.e2148d16.chunk.js.map": "/onlydust-case/static/js/787.e2148d16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0501a09.css",
+    "static/js/main.da5b5637.js"
+  ]
+}
